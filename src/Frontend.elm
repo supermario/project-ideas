@@ -82,6 +82,9 @@ view model =
                 [ Html.text "1. Actually build this site that tracks people's project ideas "
                 , Html.a [ Attr.href "https://github.com/supermario/project-ideas" ] [ Html.text "(repo)" ]
                 ]
+            , Html.div []
+                [ Html.text "2. A conference calendar of relevant conferences and see who's considering speaking at which"
+                ]
             ]
         ]
     }
